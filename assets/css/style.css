@@ -1,0 +1,145 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body {
+    background-color: #d9dcd6;
+}
+
+/* Removed unnecessary code */
+
+.seo {
+    color: #d9dcd6;
+}
+
+.header {
+    padding: 20px;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+/* removed font-family from line 27, is set globally up top */
+
+.header div {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-size: 20px;
+}
+
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+/* removed unnecessary code from lines 40 and 44 */
+
+.header ul {
+    list-style-type: none;
+}
+
+.header li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
+}
+
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/* Consolidated search-engine-optimization, online-reputation-management, and social-media marketing (h2/img) */
+/* font-family in line 90 ovverides global */
+
+.article-main {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.article-main h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.article-main img {
+    max-height: 200px;
+}
+
+/* Changed the order of CSS code to fit the flow of the project */
+/* font-family in line 114 ovverides global */
+
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+/* Consolidated all benefits exactly as the comment on line 82 mentions */
+
+.benefit-main {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.benefit-main h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.benefit-main img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/* removed font-family from line 138, set globally */
+
+.footer {
+    padding: 30px;
+    clear: both;
+    text-align: center;
+}
+
+.footer h2 {
+    font-size: 20px;
+}
